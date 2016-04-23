@@ -1,0 +1,9 @@
+# Ignore Everything
+*
+
+# Include
+!.bashrc
+!.profile
+!.gitignore
+!.bash_aliases
+!com.ajfite.kdesplash.desktop/
