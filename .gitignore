@@ -1,12 +1,23 @@
-# Ignore Everything
+# Ignore Everything Not Explicitly Included
 *
 
-# Include
+## Include
+
+# Bash
 !.bashrc
 !.profile
-!.gitignore
 !.bash_aliases
+
+# Git
+!.gitignore
+
+# KDE Theme
 !com.ajfite.kdesplash.desktop/
 !com.ajfite.kdesplash.desktop/*
 !com.ajfite.kdesplash.desktop/*/*
 !com.ajfite.kdesplash.desktop/*/*/*
+
+# Custom Scripts
+!bin/
+!bin/*
+
