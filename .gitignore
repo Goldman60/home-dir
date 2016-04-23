@@ -7,3 +7,6 @@
 !.gitignore
 !.bash_aliases
 !com.ajfite.kdesplash.desktop/
+!com.ajfite.kdesplash.desktop/*
+!com.ajfite.kdesplash.desktop/*/*
+!com.ajfite.kdesplash.desktop/*/*/*
