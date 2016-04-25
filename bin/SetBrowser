@@ -1,0 +1,3 @@
+#!/bin/sh
+gvfs-mime --set x-scheme-handler/http google-chrome.desktop
+gvfs-mime --set x-scheme-handler/https google-chrome.desktop
