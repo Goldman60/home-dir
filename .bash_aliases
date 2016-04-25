@@ -1,1 +1,5 @@
 alias home='git --work-tree=$HOME --git-dir=$HOME/.home'
+alias ssh-sf1='ssh aj@sf1.digitalocean.fssnow.com'
+alias ssh-sf2='ssh aj@sf2.digitalocean.fssnow.com'
+alias ssh-master='ssh ajfite@seattle.fssnow.com'
+alias ssh-xen='ssh root@seattle.fssnow.com -p 23'

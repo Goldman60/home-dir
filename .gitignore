@@ -20,3 +20,6 @@
 # Custom Scripts
 !bin/
 !bin/*
+
+# Other
+!package list
