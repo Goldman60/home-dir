@@ -24,3 +24,7 @@ fi
 if [ -d "$HOME/other-bin" ] ; then
     PATH="$HOME/other-bin:$PATH"
 fi
+
+if [ -d "/opt/android-sdk-linux/platform-tools" ] ; then
+    PATH="/opt/android-sdk-linux/platform-tools:$PATH"
+fi
