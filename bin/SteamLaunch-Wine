@@ -1,5 +1,5 @@
 #!/bin/bash
-export WINEPREFIX=~/.wine-stardew
+export WINEPREFIX=~/.wine
 export WINEARCH=win32
 cd "${WINEPREFIX}/drive_c/Program Files/Steam"
 wine Steam.exe -no-cef-sandbox
