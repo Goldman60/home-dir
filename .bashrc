@@ -18,6 +18,7 @@ source /usr/share/doc/pkgfile/command-not-found.bash
 
 # Exports
 export EDITOR="vim"
+export VISUAL="vim"
 
 #
 # Bash Prompt
@@ -27,5 +28,3 @@ GREEN="\[$(tput setaf 2)\]"
 RESET="\[$(tput sgr0)\]"
 
 PS1="${GREEN}\u \W \$${RESET}> "
-
-archey3
