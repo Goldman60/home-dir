@@ -19,6 +19,7 @@ source /usr/share/doc/pkgfile/command-not-found.bash
 # Exports
 export EDITOR="vim"
 export VISUAL="vim"
+export GIT_EDITOR="vim"
 
 #
 # Bash Prompt
