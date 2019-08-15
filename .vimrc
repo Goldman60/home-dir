@@ -14,7 +14,7 @@ set mouse=a
 set ttymouse=xterm2
 set mousemodel=popup
 set formatoptions+=r
-autocmd FileType tex,markdown,text setlocal spell
+autocmd FileType tex,markdown,text,gitcommit setlocal spell
 set spelllang=en_us
 autocmd FileType c,cpp setlocal colorcolumn=80
 autocmd FileType c,cpp setlocal textwidth=80
