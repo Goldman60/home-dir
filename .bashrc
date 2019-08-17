@@ -10,8 +10,6 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-alias ls='ls --color=auto'
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Indicates if the command is in a package somewhere
 source /usr/share/doc/pkgfile/command-not-found.bash
