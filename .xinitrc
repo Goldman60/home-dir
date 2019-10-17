@@ -1,1 +1,1 @@
-exec startkde
+exec startplasma-x11
