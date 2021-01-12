@@ -1,6 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
-	name = AJ Fite 
+   name = AJ Fite 
    email = me@ajfite.com
    signingkey = 86AF6F7C5C67BCF06222974D6C7242E181843606
 
