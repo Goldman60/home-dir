@@ -27,3 +27,8 @@ GREEN="\[$(tput setaf 2)\]"
 RESET="\[$(tput sgr0)\]"
 
 PS1="${GREEN}\u \W \$${RESET}> "
+
+# GPG Agent
+export GPG_TTY=$(tty)
+export SSH_AGENT_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
+gpg-connect-agent updatestartuptty /bye >/dev/null
